@@ -1,0 +1,40 @@
+﻿<Window x:Class="ServerUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ServerUI"
+        mc:Ignorable="d"
+        Title="Server" Height="470" Width="820">
+       <Grid>
+         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="5">
+             <StackPanel Orientation="Horizontal">
+                 <Label>Part :</Label>
+                <TextBox x:Name="Port" Height="20" Width="100"/>
+             </StackPanel>
+             <StackPanel Orientation="Horizontal">
+                 <Label>Ip :</Label>
+                 <TextBox x:Name="IP" Width="150" Height="20" IsEnabled="False"
+                         Text="127.0.0.1"/>
+             </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="10 0 0 0" >
+                <Button x:Name="startbtn" Click="startbtn_Click" Width="50">Start</Button>
+                <Button x:Name="Stopbtn" Click="Stopbtn_Click" Width="50" Margin="10 0 0 0">Stop</Button>
+            </StackPanel>
+        </StackPanel>
+
+        <StackPanel VerticalAlignment="Stretch" Margin="0 35 0 0">
+            <Label Name="State" HorizontalAlignment="Center" Foreground="Red"
+            FontWeight="ExtraBold">Server Stop</Label>
+
+            <TextBox x:Name="RecieveBox" IsReadOnly="True" FontSize="14" Padding="10" Margin="2" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" 
+                     Height="300px" Background="Yellow" />
+
+            <StackPanel Orientation="Horizontal" Margin="10 0 0 0" HorizontalAlignment="Left">
+                <TextBox x:Name="Sendbox" TextWrapping="Wrap" Height="50" Width="730"/>
+                <Button x:Name="SendBtn" Width="50" Click="SendBtn_Click" VerticalAlignment="Center" IsEnabled="False" Margin="5 0 0 0">Send</Button>
+
+            </StackPanel>
+        </StackPanel>
+       </Grid>
+</Window>

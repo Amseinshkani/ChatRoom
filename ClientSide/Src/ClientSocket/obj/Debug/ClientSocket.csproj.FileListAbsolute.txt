@@ -1,0 +1,6 @@
+C:\Users\Win11\Desktop\Socket Programming\ClientSide\Src\ClientSocket\bin\Debug\ClientSocket.dll
+C:\Users\Win11\Desktop\Socket Programming\ClientSide\Src\ClientSocket\bin\Debug\ClientSocket.pdb
+C:\Users\Win11\Desktop\Socket Programming\ClientSide\Src\ClientSocket\obj\Debug\ClientSocket.csproj.AssemblyReference.cache
+C:\Users\Win11\Desktop\Socket Programming\ClientSide\Src\ClientSocket\obj\Debug\ClientSocket.csproj.CoreCompileInputs.cache
+C:\Users\Win11\Desktop\Socket Programming\ClientSide\Src\ClientSocket\obj\Debug\ClientSocket.dll
+C:\Users\Win11\Desktop\Socket Programming\ClientSide\Src\ClientSocket\obj\Debug\ClientSocket.pdb
